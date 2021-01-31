@@ -7,6 +7,9 @@ import lombok.NoArgsConstructor;
 import lombok.Setter;
 import org.springframework.http.HttpStatus;
 
+/**
+ * It contains response structure of Http Response
+ */
 @Getter
 @Setter
 @NoArgsConstructor

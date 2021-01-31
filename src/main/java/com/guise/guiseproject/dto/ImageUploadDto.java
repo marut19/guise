@@ -7,26 +7,16 @@ import lombok.NoArgsConstructor;
 import lombok.Setter;
 import lombok.ToString;
 
-import java.time.LocalDateTime;
-
-/**
- * Image detail dto contains the all the image
- * response related entities.
- */
 @NoArgsConstructor
 @AllArgsConstructor
 @Getter
 @Setter
 @ToString
-public class ImageDetailDto{
+public class ImageUploadDto {
 
     private Long id;
 
     private String name;
 
     private ImageTypeEnum type;
-
-    private LocalDateTime createdAt;
-
-    private LocalDateTime updatedAt;
 }

@@ -2,6 +2,9 @@ package com.guise.guiseproject.enumeration;
 
 import com.fasterxml.jackson.annotation.JsonValue;
 
+/**
+ * Image type enum contains all the allowed image types
+ */
 public enum ImageTypeEnum {
     JPEG("image/jpeg"),
     JPG("image/jpg"),
