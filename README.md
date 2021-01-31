@@ -15,6 +15,8 @@
 Project is created with:
 * Springboot JAVA
 * PostgreSQL
+* Docker
+* AWS
 
 ## API info
 ```
